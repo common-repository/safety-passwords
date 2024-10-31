@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'hokoo/safety-passwords',
+        'pretty_version' => 'v1.0',
+        'version' => '1.0.0.0',
+        'reference' => '3ab803be8d1325be321e7cdb3d3add76cc95cb88',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'hokoo/safety-passwords' => array(
+            'pretty_version' => 'v1.0',
+            'version' => '1.0.0.0',
+            'reference' => '3ab803be8d1325be321e7cdb3d3add76cc95cb88',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'htmlburger/carbon-fields' => array(
+            'pretty_version' => 'v3.6.3',
+            'version' => '3.6.3.0',
+            'reference' => 'd913a5148cb9dc61ed239719c747f4ebb513003f',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../htmlburger/carbon-fields',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'psr/log' => array(
+            'pretty_version' => '1.1.4',
+            'version' => '1.1.4.0',
+            'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
